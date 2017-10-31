@@ -1,0 +1,51 @@
+---
+title: "Untitled"
+author: "Maria C. Codlin"
+date: "10/24/2017"
+output: html_document
+---
+```{r}
+install.packages("vrmlgen")
+```
+
+```{r}
+library(vrmlgen)
+library(geomorph)
+```
+
+```{r}
+vrml.open(file = "c60.wrl", html.embed = "example1.html", scale = 5)
+data("c60coords")
+points3d(c60coords, col = "black", scale = 5, hyperlinks = rep("http://wikipedia.org/wiki/Carbon", 60))
+for(j in 1:(nrow(c60coords) - 1))
+{
+for(k in (j + 1):nrow(c60coords))
+{
+ if(sqrt(sum((c60coords[j, ] - c60coords[k, ])^2)) < 0.66) lines3d(c60coords[c(j, k), ], col = "gray", lwd = 3)
+}
+}
+vrml.close()
+browseURL(paste("file://", file.path(getwd(), "example1.html"), sep = ""))
+```
+
+install.packages("geomorph")
+install.packages("rgl")
+install.packages("ape", dependencies = TRUE)
+
+```{r}
+d<-read.ply("bun_zipper.ply")
+```
+```{r}
+summary(d)
+str(d)
+```
+
+```{r}
+plotAllSpecimens(d)
+```
+
+```{r}
+buildtemplate(d, fixed=20)
+
+```
+
