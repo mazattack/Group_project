@@ -1,0 +1,64 @@
+---
+title: "Untitled"
+author: "Maria C. Codlin"
+date: "November 21, 2017"
+output: html_document
+---
+```{r}
+T1fix<-digit.fixed(T1, 5)
+```
+```{r}
+T1_build<-buildtemplate(T1, T1fix)
+```
+
+
+```{r}
+fixed<-digit.fixed(A1, 5)
+```
+```{r}
+A1_build<- buildtemplate(A1, fixed, 250, 1)
+```
+
+```{r}
+A1_and_land<-plotspec(A1, fixed)
+```
+
+```{r}
+A2_and_land<-plotspec(A2, fixed)
+```
+
+
+```{r}
+A2_build<- buildtemplate(A2, fixed, 250, 1)
+```
+
+```{r}
+A3<-read.ply("A3.ply")
+```
+
+```{r}
+A3_and_land<-plotspec(A3, A3_fixed)
+```
+
+```{r}
+A3_build<- buildtemplate(A3, fixed, 250, 1)
+```
+
+```{r}
+A3_fixed<-digit.fixed(A3, 5) 
+```
+```{r}
+plot3d(A3_build)
+```
+
+```{r}
+digitsurface(A2_build, A3_fixed)
+```
+
+```{r}
+plotRefToTarget(A1_build, A3_build)
+```
+```{r}
+readmulti.nts(c("A1", "A2", "A3"))
+```
+

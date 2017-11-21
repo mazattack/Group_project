@@ -1,0 +1,28 @@
+---
+title: "Untitled"
+author: "Maria C. Codlin"
+date: "November 20, 2017"
+output: html_document
+---
+
+```{r}
+require(geomorph)
+```
+
+```{r}
+data(plethodon)
+plotAllSpecimens(plethodon$land)
+```
+
+```{r}
+data("scallopPLY")
+attributes(scallopPLY)
+str(scallopPLY)
+plotAllSpecimens(scallopPLY)
+```
+
+
+```{r}
+arrayspecs(scallopPLY)
+```
+

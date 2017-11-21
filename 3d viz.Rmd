@@ -6,11 +6,14 @@ output: html_document
 ---
 ```{r}
 install.packages("vrmlgen")
+install.packages("geomorph")
+install.packages("Morpho")
 ```
 
 ```{r}
 library(vrmlgen)
 library(geomorph)
+library(Morpho)
 ```
 
 ```{r}
@@ -34,10 +37,89 @@ install.packages("ape", dependencies = TRUE)
 
 ```{r}
 d<-read.ply("bun_zipper.ply")
+
+
 ```
 ```{r}
-summary(d)
-str(d)
+A1<-read.ply("A1.ply")
+```
+
+```{r}
+plot3d(A1)
+```
+```{r}
+A1_landmark<-digit.fixed(A1, 10, ptsize = 1)
+```
+
+
+```{r}
+b_temp<- buildtemplate(A1, 10, surface.sliders = 100)
+```
+
+```{r}
+A2<-read.ply("A2.ply")
+```
+
+```{r}
+b_temp2<- buildtemplate(A2, 10, A1_landmark, surface.sliders = 100)
+```
+```{r}
+fixed<-digit.fixed(A1, 10, center = FALSE)
+```
+
+```{r}
+fixed<-(readland.nts("A1.nts"))
+fixed
+```
+```{r}
+A1_landmark
+```
+
+
+```{r}
+A1_dsurf<-digitsurface(A1, "A1.nts")
+```
+
+```{r}
+A1_array<- arrayspecs(fixed, 10, 3)
+```
+
+```{r}
+digitsurface(A1, fixed=b_temp, ptsize = 1)
+```
+```{r}
+str(b_temp)
+```
+
+
+```{r}
+plotAllSpecimens("A1.nts")
+```
+```{r}
+array_land<- arrayspecs("A1.nts", 10, k=3)
+```
+
+```{r}
+d_surf<- digitsurface(A1, 4, ptsize = 1)
+```
+
+
+```{r}
+T1<-file2mesh("T1.ply")
+T12<-file2mesh("T1.ply")
+A1<-file2mesh("A1.ply")
+```
+
+
+```{r}
+summary(T1)
+str(T1)
+```
+```{r}
+head(d$vb)
+```
+```{r}
+
 ```
 
 ```{r}
@@ -47,5 +129,19 @@ plotAllSpecimens(d)
 ```{r}
 buildtemplate(d, fixed=20)
 
+```
+
+```{r}
+mesh2ply(d, "T1.2")
+```
+
+```{r}
+plotspec(T1)
+```
+```{r}
+digit.fixed(T12, 10)
+```
+```{r}
+plot3d(T1)
 ```
 
