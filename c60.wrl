@@ -1,0 +1,1360 @@
+#VRML V2.0 utf8
+
+
+Viewpoint {
+	fieldOfView 0.785 
+	position 13 13 13 
+	orientation 0.19 0.45 0.87 2.45 
+	jump TRUE
+	description "viewpoint1"
+}
+
+Background {
+	 skyColor [
+		  1 1 1  
+	]
+}
+
+Transform {
+	translation  -5 -1.03005664791649 0 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -5 1.03005664791649 0 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  5 -1.03005664791649 0 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  5 1.03005664791649 0 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  0 -5 -1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  0 -5 1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  0 5 -1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  0 5 1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.03005664791649 0 -5 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.03005664791649 0 5 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.03005664791649 0 -5 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.03005664791649 0 5 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -3.33333333333333 -3.72677996249965 -1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -3.33333333333333 -3.72677996249965 1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -3.33333333333333 3.72677996249965 -1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -3.33333333333333 3.72677996249965 1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  3.33333333333333 -3.72677996249965 -1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  3.33333333333333 -3.72677996249965 1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  3.33333333333333 3.72677996249965 -1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  3.33333333333333 3.72677996249965 1.03005664791649 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.03005664791649 -3.33333333333333 -3.72677996249965 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.03005664791649 -3.33333333333333 3.72677996249965 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.03005664791649 3.33333333333333 -3.72677996249965 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.03005664791649 3.33333333333333 3.72677996249965 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.03005664791649 -3.33333333333333 -3.72677996249965 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.03005664791649 -3.33333333333333 3.72677996249965 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.03005664791649 3.33333333333333 -3.72677996249965 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.03005664791649 3.33333333333333 3.72677996249965 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -3.72677996249965 -1.03005664791649 -3.33333333333333 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -3.72677996249965 -1.03005664791649 3.33333333333333 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -3.72677996249965 1.03005664791649 -3.33333333333333 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -3.72677996249965 1.03005664791649 3.33333333333333 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  3.72677996249965 -1.03005664791649 -3.33333333333333 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  3.72677996249965 -1.03005664791649 3.33333333333333 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  3.72677996249965 1.03005664791649 -3.33333333333333 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  3.72677996249965 1.03005664791649 3.33333333333333 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.66666666666666 -4.36338998124983 -2.06011329583299 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.66666666666666 -4.36338998124983 2.06011329583299 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.66666666666666 4.36338998124983 -2.06011329583299 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -1.66666666666666 4.36338998124983 2.06011329583299 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.66666666666666 -4.36338998124983 -2.06011329583299 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.66666666666666 -4.36338998124983 2.06011329583299 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.66666666666666 4.36338998124983 -2.06011329583299 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  1.66666666666666 4.36338998124983 2.06011329583299 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -2.06011329583299 -1.66666666666666 -4.36338998124983 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -2.06011329583299 -1.66666666666666 4.36338998124983 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -2.06011329583299 1.66666666666666 -4.36338998124983 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -2.06011329583299 1.66666666666666 4.36338998124983 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  2.06011329583299 -1.66666666666666 -4.36338998124983 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  2.06011329583299 -1.66666666666666 4.36338998124983 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  2.06011329583299 1.66666666666666 -4.36338998124983 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  2.06011329583299 1.66666666666666 4.36338998124983 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -4.36338998124983 -2.06011329583299 -1.66666666666666 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -4.36338998124983 -2.06011329583299 1.66666666666666 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -4.36338998124983 2.06011329583299 -1.66666666666666 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  -4.36338998124983 2.06011329583299 1.66666666666666 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  4.36338998124983 -2.06011329583299 -1.66666666666666 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  4.36338998124983 -2.06011329583299 1.66666666666666 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  4.36338998124983 2.06011329583299 -1.66666666666666 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+
+Transform {
+	translation  4.36338998124983 2.06011329583299 1.66666666666666 
+	children Anchor { url "http://wikipedia.org/wiki/Carbon" 
+	children Shape {
+		appearance Appearance { material Material { diffuseColor 0 0 0 transparency 0 } }
+	geometry Sphere { radius  0.4 }
+		} } 
+}
+Transform {
+	translation  -5 0 0 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -4.68169499062491 -1.54508497187474 -0.833333333333332 
+	rotation -0.809016994374946 0 -0.309016994374947 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -4.68169499062491 -1.54508497187474 0.833333333333332 
+	rotation 0.809016994374946 0 -0.309016994374947 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -4.68169499062491 1.54508497187474 -0.833333333333332 
+	rotation -0.809016994374946 0 -0.309016994374947 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -4.68169499062491 1.54508497187474 0.833333333333332 
+	rotation 0.809016994374946 0 -0.309016994374947 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  5 0 0 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  4.68169499062491 -1.54508497187474 -0.833333333333332 
+	rotation -0.809016994374946 0 0.309016994374947 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  4.68169499062491 -1.54508497187474 0.833333333333332 
+	rotation 0.809016994374946 0 0.309016994374947 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  4.68169499062491 1.54508497187474 -0.833333333333332 
+	rotation -0.809016994374946 0 0.309016994374947 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  4.68169499062491 1.54508497187474 0.833333333333332 
+	rotation 0.809016994374946 0 0.309016994374947 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  0 -5 0 
+	rotation 1 0 0 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -0.833333333333332 -4.68169499062491 -1.54508497187474 
+	rotation -0.500000000000002 0 0.809016994374946 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  0.833333333333332 -4.68169499062491 -1.54508497187474 
+	rotation -0.500000000000002 0 -0.809016994374946 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -0.833333333333332 -4.68169499062491 1.54508497187474 
+	rotation 0.500000000000002 0 0.809016994374946 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  0.833333333333332 -4.68169499062491 1.54508497187474 
+	rotation 0.500000000000002 0 -0.809016994374946 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  0 5 0 
+	rotation 1 0 0 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -0.833333333333332 4.68169499062491 -1.54508497187474 
+	rotation -0.500000000000002 0 0.809016994374946 1.88495559215388 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  0.833333333333332 4.68169499062491 -1.54508497187474 
+	rotation -0.500000000000002 0 -0.809016994374946 1.88495559215388 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -0.833333333333332 4.68169499062491 1.54508497187474 
+	rotation 0.500000000000002 0 0.809016994374946 1.88495559215388 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  0.833333333333332 4.68169499062491 1.54508497187474 
+	rotation 0.500000000000002 0 -0.809016994374946 1.88495559215388 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  0 0 -5 
+	rotation 0 0 -1 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.54508497187474 -0.833333333333332 -4.68169499062491 
+	rotation 0.309016994374947 0 0.500000000000002 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.54508497187474 0.833333333333332 -4.68169499062491 
+	rotation 0.309016994374947 0 0.500000000000002 0.62831853071796 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  0 0 5 
+	rotation 0 0 -1 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.54508497187474 -0.833333333333332 4.68169499062491 
+	rotation -0.309016994374947 0 0.500000000000002 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.54508497187474 0.833333333333332 4.68169499062491 
+	rotation -0.309016994374947 0 0.500000000000002 0.62831853071796 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.54508497187474 -0.833333333333332 -4.68169499062491 
+	rotation 0.309016994374947 0 -0.500000000000002 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.54508497187474 0.833333333333332 -4.68169499062491 
+	rotation 0.309016994374947 0 -0.500000000000002 0.62831853071796 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.54508497187474 -0.833333333333332 4.68169499062491 
+	rotation -0.309016994374947 0 -0.500000000000002 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.54508497187474 0.833333333333332 4.68169499062491 
+	rotation -0.309016994374947 0 -0.500000000000002 0.62831853071796 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -3.33333333333333 -3.72677996249965 0 
+	rotation 1 0 0 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -2.5 -4.04508497187474 -1.54508497187474 
+	rotation -0.500000000000001 0 -0.809016994374947 1.88495559215387 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  -3.84836165729158 -2.89344662916632 -1.34836165729158 
+	rotation -0.309016994374948 0 0.5 0.628318530717959 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -2.5 -4.04508497187474 1.54508497187474 
+	rotation 0.500000000000001 0 -0.809016994374947 1.88495559215387 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  -3.84836165729158 -2.89344662916632 1.34836165729158 
+	rotation 0.309016994374948 0 0.5 0.628318530717959 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -3.33333333333333 3.72677996249965 0 
+	rotation 1 0 0 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -2.5 4.04508497187474 -1.54508497187474 
+	rotation -0.500000000000001 0 -0.809016994374947 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  -3.84836165729158 2.89344662916632 -1.34836165729158 
+	rotation -0.309016994374948 0 0.5 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -2.5 4.04508497187474 1.54508497187474 
+	rotation 0.500000000000001 0 -0.809016994374947 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  -3.84836165729158 2.89344662916632 1.34836165729158 
+	rotation 0.309016994374948 0 0.5 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  3.33333333333333 -3.72677996249965 0 
+	rotation 1 0 0 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  2.5 -4.04508497187474 -1.54508497187474 
+	rotation -0.500000000000001 0 0.809016994374947 1.88495559215387 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  3.84836165729158 -2.89344662916632 -1.34836165729158 
+	rotation -0.309016994374948 0 -0.5 0.628318530717959 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  2.5 -4.04508497187474 1.54508497187474 
+	rotation 0.500000000000001 0 0.809016994374947 1.88495559215387 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  3.84836165729158 -2.89344662916632 1.34836165729158 
+	rotation 0.309016994374948 0 -0.5 0.628318530717959 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  3.33333333333333 3.72677996249965 0 
+	rotation 1 0 0 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  2.5 4.04508497187474 -1.54508497187474 
+	rotation -0.500000000000001 0 0.809016994374947 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  3.84836165729158 2.89344662916632 -1.34836165729158 
+	rotation -0.309016994374948 0 -0.5 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  2.5 4.04508497187474 1.54508497187474 
+	rotation 0.500000000000001 0 0.809016994374947 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  3.84836165729158 2.89344662916632 1.34836165729158 
+	rotation 0.309016994374948 0 -0.5 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  0 -3.33333333333333 -3.72677996249965 
+	rotation 0 0 -1 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.34836165729158 -3.84836165729158 -2.89344662916632 
+	rotation 0.809016994374947 0 0.309016994374948 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.54508497187474 -2.5 -4.04508497187474 
+	rotation -0.309016994374947 0 0.500000000000001 0.628318530717959 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  0 -3.33333333333333 3.72677996249965 
+	rotation 0 0 -1 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.34836165729158 -3.84836165729158 2.89344662916632 
+	rotation -0.809016994374947 0 0.309016994374948 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.54508497187474 -2.5 4.04508497187474 
+	rotation 0.309016994374947 0 0.500000000000001 0.628318530717959 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  0 3.33333333333333 -3.72677996249965 
+	rotation 0 0 -1 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.34836165729158 3.84836165729158 -2.89344662916632 
+	rotation 0.809016994374947 0 0.309016994374948 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.54508497187474 2.5 -4.04508497187474 
+	rotation -0.309016994374947 0 0.500000000000001 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  0 3.33333333333333 3.72677996249965 
+	rotation 0 0 -1 1.5707963267949 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.34836165729158 3.84836165729158 2.89344662916632 
+	rotation -0.809016994374947 0 0.309016994374948 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -1.54508497187474 2.5 4.04508497187474 
+	rotation 0.309016994374947 0 0.500000000000001 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.34836165729158 -3.84836165729158 -2.89344662916632 
+	rotation 0.809016994374947 0 -0.309016994374948 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.54508497187474 -2.5 -4.04508497187474 
+	rotation -0.309016994374947 0 -0.500000000000001 0.628318530717959 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.34836165729158 -3.84836165729158 2.89344662916632 
+	rotation -0.809016994374947 0 -0.309016994374948 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.54508497187474 -2.5 4.04508497187474 
+	rotation 0.309016994374947 0 -0.500000000000001 0.628318530717959 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.34836165729158 3.84836165729158 -2.89344662916632 
+	rotation 0.809016994374947 0 -0.309016994374948 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.54508497187474 2.5 -4.04508497187474 
+	rotation -0.309016994374947 0 -0.500000000000001 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.34836165729158 3.84836165729158 2.89344662916632 
+	rotation -0.809016994374947 0 -0.309016994374948 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  1.54508497187474 2.5 4.04508497187474 
+	rotation 0.309016994374947 0 -0.500000000000001 2.51327412287183 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  -3.72677996249965 0 -3.33333333333333 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -2.89344662916632 -1.34836165729158 -3.84836165729158 
+	rotation -0.5 0 -0.809016994374947 1.88495559215388 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -4.04508497187474 -1.54508497187474 -2.5 
+	rotation 0.809016994374947 0 0.309016994374947 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  -3.72677996249965 0 3.33333333333333 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -2.89344662916632 -1.34836165729158 3.84836165729158 
+	rotation 0.5 0 -0.809016994374947 1.88495559215388 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -4.04508497187474 -1.54508497187474 2.5 
+	rotation -0.809016994374947 0 0.309016994374947 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  -2.89344662916632 1.34836165729158 -3.84836165729158 
+	rotation -0.5 0 -0.809016994374947 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -4.04508497187474 1.54508497187474 -2.5 
+	rotation 0.809016994374947 0 0.309016994374947 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  -2.89344662916632 1.34836165729158 3.84836165729158 
+	rotation 0.5 0 -0.809016994374947 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  -4.04508497187474 1.54508497187474 2.5 
+	rotation -0.809016994374947 0 0.309016994374947 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  3.72677996249965 0 -3.33333333333333 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  2.89344662916632 -1.34836165729158 -3.84836165729158 
+	rotation -0.5 0 0.809016994374947 1.88495559215388 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  4.04508497187474 -1.54508497187474 -2.5 
+	rotation 0.809016994374947 0 -0.309016994374947 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  3.72677996249965 0 3.33333333333333 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  2.89344662916632 -1.34836165729158 3.84836165729158 
+	rotation 0.5 0 0.809016994374947 1.88495559215388 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  4.04508497187474 -1.54508497187474 2.5 
+	rotation -0.809016994374947 0 -0.309016994374947 2.0943951023932 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  2.89344662916632 1.34836165729158 -3.84836165729158 
+	rotation -0.5 0 0.809016994374947 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  4.04508497187474 1.54508497187474 -2.5 
+	rotation 0.809016994374947 0 -0.309016994374947 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}
+Transform {
+	translation  2.89344662916632 1.34836165729158 3.84836165729158 
+	rotation 0.5 0 0.809016994374947 1.25663706143592 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583298 radius 0.12  }
+	}
+}
+Transform {
+	translation  4.04508497187474 1.54508497187474 2.5 
+	rotation -0.809016994374947 0 -0.309016994374947 1.0471975511966 
+	children Shape {
+		appearance Appearance { material Material {
+		diffuseColor  0.745098039215686 0.745098039215686 0.745098039215686  } }
+	geometry Cylinder { height  2.06011329583299 radius 0.12  }
+	}
+}

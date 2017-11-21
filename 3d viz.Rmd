@@ -8,12 +8,93 @@ output: html_document
 install.packages("vrmlgen")
 install.packages("geomorph")
 install.packages("Morpho")
+install.packages("abind")
 ```
 
 ```{r}
 library(vrmlgen)
 library(geomorph)
 library(Morpho)
+library(abind)
+```
+
+Import ply in ASCII format or use Morpho to import binary ply. 
+```{r}
+A1<-read.ply("A1.ply")#using Geomorph
+```
+```{r}
+A2<-read.ply("A2.ply")
+```
+```{r}
+T1<-file2mesh("T1.ply")#using Morpho
+```
+
+Use digit.fixed to selected fixed landmarks on the specimen, this will save a nts landmark file to the directory. You will use the console to confirm each point using y/n. Double right click to select the landmark. 
+```{r}
+A1_fix<-digit.fixed(A1, 10)#number of fixed landmarks to create
+```
+```{r}
+A2_fix<- digit.fixed(A2, 10)#number of fixed landmarks to create
+```
+
+You can also read in landmark data from another software. Here we will read in the nts file from A1. 
+
+```{r}
+A1_fix2<-readland.nts("A1.nts")
+```
+```{r}
+A2_fix<-readland.nts("A2.nts")
+```
+Read the nts files in to create a 3D array. 
+```{r}
+filelist<-(c("A1.nts", "A2.nts"))
+filelist
+a1_a2<-readmulti.nts(filelist)
+```
+
+Or bind the landmark files together into a 3d array for use in Geomorph using abind package. 
+```{r}
+dim(A1_fix)
+A1_A2_fix<-abind(A1_fix, A2_fix, along=3)
+dim(A1_A2_fix)
+```
+We can now view all the landmarks together, these are unaligned.
+```{r}
+plotAllSpecimens(a1_a2)
+str(a1_a2)
+```
+We use the gpagen function to align the points
+```{r}
+GPA<-gpagen(a1_a2)
+```
+```{r}
+str(GPA)
+```
+
+```{r}
+plot3d(A1_fix2)
+```
+
+```{r}
+plot(GPA)
+```
+
+I'm still not sure what the different shapes are right now. 
+
+
+
+
+```{r}
+plotspec(A1, A1_fix)
+```
+
+```{r}
+str(A2_fix)
+```
+
+Create a surface with fixed and auto spaced landmark points (semi-something look up). 
+```{r}
+digitsurface(A1, , ptsize=1)
 ```
 
 ```{r}
@@ -41,7 +122,7 @@ d<-read.ply("bun_zipper.ply")
 
 ```
 ```{r}
-A1<-read.ply("A1.ply")
+A2<-read.ply("A2.ply")
 ```
 
 ```{r}
@@ -144,4 +225,9 @@ digit.fixed(T12, 10)
 ```{r}
 plot3d(T1)
 ```
+```{r}
+plot3d(A1_fix2)
+```
+
+
 
